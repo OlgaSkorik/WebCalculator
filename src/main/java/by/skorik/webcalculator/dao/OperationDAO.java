@@ -2,7 +2,6 @@ package by.skorik.webcalculator.dao;
 
 import by.skorik.webcalculator.entity.Operation;
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 

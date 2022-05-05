@@ -3,7 +3,6 @@ package by.skorik.webcalculator.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.io.Serializable;
 import java.util.Objects;
 
 public class Operation {
@@ -19,7 +18,8 @@ public class Operation {
     @JsonIgnore
     private User user;
 
-    public Operation() {}
+    public Operation() {
+    }
 
     public Operation(long id, double num1, double num2, String operation, User user) {
         this.id = id;

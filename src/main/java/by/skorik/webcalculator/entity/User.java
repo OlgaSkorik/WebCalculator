@@ -1,9 +1,6 @@
 package by.skorik.webcalculator.entity;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.Objects;
 
 public class User {
